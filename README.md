@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/koshigoe/ruboty-google_translate/tree/master.svg?style=svg)](https://circleci.com/gh/koshigoe/ruboty-google_translate/tree/master)
+
 # Ruboty::GoogleTranslate
 
 Ruboty plugin to translate text.
