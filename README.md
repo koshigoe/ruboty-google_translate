@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/koshigoe/ruboty-google_translate/tree/master.svg?style=svg)](https://circleci.com/gh/koshigoe/ruboty-google_translate/tree/master)
+[![Build Status](https://travis-ci.org/koshigoe/ruboty-google_translate.svg?branch=master)](https://travis-ci.org/koshigoe/ruboty-google_translate)
 
 # Ruboty::GoogleTranslate
 
