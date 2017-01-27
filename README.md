@@ -1,8 +1,6 @@
 # Ruboty::GoogleTranslate
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ruboty/google_translate`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Ruboty plugin to translate text.
 
 ## Installation
 
@@ -16,13 +14,18 @@ And then execute:
 
     $ bundle
 
-Or install it yourself as:
-
-    $ gem install ruboty-google_translate
-
 ## Usage
 
-TODO: Write usage instructions here
+```
+@ruboty 英語で <text>      - Translate text to English
+```
+
+## ENV
+
+```
+GOOGLE_CLOUD_KEY     - Google Cloud Project ID
+GOOGLE_CLOUD_PROJECT - Google Cloud API Key
+```
 
 ## Development
 
