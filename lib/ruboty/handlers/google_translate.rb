@@ -17,8 +17,8 @@ module Ruboty
       def translate(text, to:)
         # TODO: Set retries:, timeout: if needed.
         Google::Cloud::Translate.new.translate(text, to: to).text
-      rescue
-        # TODO: error logging
+      rescue => e
+        Ruboty.logger.error(e.message)
         text
       end
     end
