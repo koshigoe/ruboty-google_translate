@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/koshigoe/ruboty-google_translate.svg?branch=master)](https://travis-ci.org/koshigoe/ruboty-google_translate)
+[![Gem Version](https://badge.fury.io/rb/ruboty-google_translate.svg)](https://badge.fury.io/rb/ruboty-google_translate)[![Build Status](https://travis-ci.org/koshigoe/ruboty-google_translate.svg?branch=master)](https://travis-ci.org/koshigoe/ruboty-google_translate)
 
 # Ruboty::GoogleTranslate
 
