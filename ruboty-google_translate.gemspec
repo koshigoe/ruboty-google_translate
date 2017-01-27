@@ -6,6 +6,7 @@ require 'ruboty/google_translate/version'
 Gem::Specification.new do |spec|
   spec.name          = "ruboty-google_translate"
   spec.version       = Ruboty::GoogleTranslate::VERSION
+  spec.license       = "MIT"
   spec.authors       = ["koshigoe"]
   spec.email         = ["koshigoeb@gmail.com"]
 
