@@ -7,9 +7,14 @@ module Ruboty
       env :GOOGLE_CLOUD_KEY, 'Google Cloud API Key'
 
       on /英語で (.*)\z/, name: :in_english, description: 'Translate to English.'
+      on /in japanese (.*)\z/i, name: :in_japanese, description: 'Translate to Japanese.'
 
       def in_english(message)
         message.reply(translate(message.match_data[1], to: 'en'))
+      end
+
+      def in_japanese(message)
+        message.reply(translate(message.match_data[1], to: 'ja'))
       end
 
       private

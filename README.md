@@ -18,6 +18,7 @@ And then execute:
 
 ```
 @ruboty 英語で <text>      - Translate text to English
+@ruboty in japanese <text> - Translate text to Japanese
 ```
 
 ## ENV

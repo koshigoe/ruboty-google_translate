@@ -56,4 +56,23 @@ RSpec.describe Ruboty::Handlers::GoogleTranslate do
 
     it_behaves_like 'timeout'
   end
+
+  describe '#in_japanese' do
+    let(:lang) { 'ja' }
+    let(:command_text) { 'in japanese' }
+    let(:original_text) { 'Hello' }
+    let(:translated_text) { 'こんにちは' }
+
+    context 'uppercase' do
+      let(:command_text) { 'IN JAPANESE' }
+      it_behaves_like 'successful'
+    end
+
+    context 'lowercase' do
+      let(:command_text) { 'in japanese' }
+      it_behaves_like 'successful'
+    end
+
+    it_behaves_like 'timeout'
+  end
 end
